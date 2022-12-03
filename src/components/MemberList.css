@@ -1,0 +1,27 @@
+.tableContainer {
+  margin: 30px auto;
+}
+.tableContainer tr th,
+.tableContainer tr td {
+  padding: 10px;
+}
+.filterName {
+  margin-bottom: 10px;
+}
+.filterName input {
+  width: 200px;
+  display: block;
+  padding: 5px;
+  margin: 10px auto 20px;
+}
+.filterActivity select {
+  padding: 5px;
+}
+.removeBtn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background: #007fff;
+  color: #fff;
+  cursor: pointer;
+}
