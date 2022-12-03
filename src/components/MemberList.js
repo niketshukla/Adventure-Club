@@ -33,7 +33,6 @@ export default function MemberList({ data }) {
   return (
     <div>
       <h2>Outdoor Adventure Club</h2>
-      <CounterDisplay {...calculateCounts()} />
       <div className="filterName">
         <label htmlFor="searchNames">Search By Name: </label>
         <input
@@ -61,6 +60,7 @@ export default function MemberList({ data }) {
           <option value="Hiking">Hiking</option>
         </select>
       </div>
+      <CounterDisplay {...calculateCounts()} />
       <table className="tableContainer">
         <thead>
           <tr>
